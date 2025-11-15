@@ -1,3 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./tailwind.css";
 @import "primeicons/primeicons.css";
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121f3b;
+    --text: #eaf0f6;
+    --primary: #2d51a4;
+    --secondary: #8ea3c7;
+    --accent: #4da9ff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #c4d1ed;
+    --text: #090f15;
+    --primary: #5b7fd2;
+    --secondary: #384d71;
+    --accent: #005cb3;
+  }
+}
