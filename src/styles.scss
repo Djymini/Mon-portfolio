@@ -1,3 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./tailwind.css";
 @import "primeicons/primeicons.css";
+
+@font-face {
+  font-family: poetsen;
+  src: url(../public/assets/fonts/Jersey25-Regular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: sansation;
+  src: url(../public/assets/fonts/Sansation-Regular.ttf) format("opentype");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a1427;
+    --backround2: #070e1b;
+    --text: #eaf0f6;
+    --primary: #2d51a4;
+    --secondary: #8ea3c7;
+    --accent: #4da9ff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #d2dcf1;
+    --backround2: #d9e4fc;
+    --text: #090f15;
+    --primary: #5b7fd2;
+    --secondary: #384d71;
+    --accent: #005cb3;
+  }
+}
+
+$text-size: 16px;
+$title3-size: 24px;
+$title2-size: 32px;
+$title1-size: 40px;
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image:
+    url('/assets/images/portfolio_home_background.png'),
+    radial-gradient(circle at center, var(--background), var(--backround2));
+  background-size: 100% 100%, cover;
+  background-repeat: no-repeat, no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'poetsen', 'arial', sans-serif;
+}
+
+h3 {
+  font-size: $title3-size;
+}
+
+h2 {
+  font-size: $title2-size;
+}
+
+h1 {
+  font-size: $title1-size;
+}
