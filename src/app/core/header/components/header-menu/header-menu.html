@@ -61,7 +61,7 @@
     </ng-template>
 
     <ng-template #item let-item>
-        <a pRipple class="flex items-center cursor-pointer px-4 py-2 overflow-hidden relative uppercase ml-auto" style="border-radius: 2rem">
+        <a pRipple class="flex items-center cursor-pointer px-4 py-2 overflow-hidden relative uppercase ml-auto" style="border-radius: 2rem" [routerLink]="item.routerLink">
             <span class="ml-2">{{ item.label }}</span>
         </a>
     </ng-template>

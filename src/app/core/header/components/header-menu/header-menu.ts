@@ -4,10 +4,11 @@ import { MegaMenu } from 'primeng/megamenu';
 import { ButtonModule } from 'primeng/button';
 import { CommonModule } from '@angular/common';
 import { AvatarModule } from 'primeng/avatar';
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'app-header-menu',
-  imports: [MegaMenu, ButtonModule, CommonModule, AvatarModule],
+  imports: [MegaMenu, ButtonModule, CommonModule, AvatarModule, RouterLink],
   templateUrl: './header-menu.html',
   styleUrl: './header-menu.scss',
 })
@@ -18,22 +19,22 @@ export class HeaderMenu {
     this.items = [
       {
         label: 'A propos',
-        routerLink: '/',
+        routerLink: '/about',
         root: true,
       },
       {
         label: 'Expériences',
-        routerLink: '/',
+        routerLink: '/experiences',
         root: true,
       },
       {
         label: 'Projets',
-        routerLink: '/',
+        routerLink: '/projects',
         root: true,
       },
       {
         label: 'Contact',
-        routerLink: '/',
+        routerLink: '/contact',
         root: true,
       },
     ];
