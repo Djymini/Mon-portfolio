@@ -1,0 +1,13 @@
+<div class="element-container">
+  <div class="social-container">
+    @for (item of socialItems(); track $index) {
+      <a [href]="item.url" >
+        <i class="pi" [ngClass]="item.icon"></i>
+      </a>
+    }
+  </div>
+  <a href="assets/cv/mawele-cv.pdf" download="mawele_cv.pdf" class="download-btn">
+    Télécharger mon CV
+  </a>
+</div>
+

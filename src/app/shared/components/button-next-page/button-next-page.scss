@@ -1,0 +1,82 @@
+.cta {
+  display: flex;
+  align-items: center;
+  padding: 11px 33px;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 1s;
+  transform: skewX(-15deg);
+  border: none;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.cta:focus {
+  outline: none;
+}
+
+.cta:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 var(--accent);
+}
+
+.cta .second {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.cta:hover .second {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+
+.span {
+  transform: skewX(15deg);
+}
+
+.second {
+  width: 20px;
+  height: fit-content;
+  margin-left: 30px;
+  position: relative;
+  top: 12%;
+  color: var(--text);
+}
+
+.one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+.two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.cta:hover .three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover .one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover .two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+@keyframes color_anim {
+  0% {
+    fill: var(--text);
+  }
+
+  50% {
+    fill: var(--accent);
+  }
+
+  100% {
+    fill: var(--text);
+  }
+}

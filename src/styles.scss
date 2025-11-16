@@ -2,6 +2,15 @@
 @import "./tailwind.css";
 @import "primeicons/primeicons.css";
 
+@font-face {
+  font-family: poetsen;
+  src: url(../public/assets/fonts/Jersey25-Regular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: sansation;
+  src: url(../public/assets/fonts/Sansation-Regular.ttf) format("opentype");
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -23,14 +32,15 @@
   }
 }
 
-$text-size: 16px;
-$title3-size: 24px;
-$title2-size: 32px;
-$title1-size: 40px;
+$text-size: 20px;
+$title3-size: 30px;
+$title2-size: 40px;
+$title1-size: 50px;
 
 body {
   color: var(--text);
   padding: 0 172px;
+  font-family: 'sansation', 'arial', sans-serif;
 }
 
 main {
@@ -39,6 +49,10 @@ main {
 
 p {
   font-size: $text-size;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'poetsen', 'arial', sans-serif;
 }
 
 h3 {
