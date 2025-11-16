@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { HomeArticle } from "../components/home-article/home-article";
 import { PRES_MAIN, PRES_TITLE } from '../../../shared/constants/presentation-constant';
 import { ButtonNextPage } from "../../../shared/components/button-next-page/button-next-page";
-import { RouterLink } from "@angular/router";
 import { SocialLink } from "../../../shared/components/social-link/social-link";
 import { SocialItem } from '../../../shared/models/social-item.model';
+import { BackgroundServices } from '../../../shared/services/home/background.services';
 
 @Component({
   selector: 'app-home.page',
@@ -16,7 +16,9 @@ import { SocialItem } from '../../../shared/models/social-item.model';
   `,
   styles: ``,
 })
-export default class HomePage {
+export default class HomePage implements OnInit{
+  backgroundService = inject(BackgroundServices);
+
   articleTitle: string = PRES_TITLE;
   articleResume: string = PRES_MAIN;
 
@@ -30,4 +32,8 @@ export default class HomePage {
       url: 'https://loutrepixel.itch.io/',
     },
   ];
+
+  ngOnInit(): void {
+      this.backgroundService.changeBackground('/assets/images/portfolio_home_background.png');
+  }
 }
