@@ -8,7 +8,7 @@ import { SocialItem } from '../../../shared/models/social-item.model';
 
 @Component({
   selector: 'app-home.page',
-  imports: [HomeArticle, ButtonNextPage, RouterLink, SocialLink],
+  imports: [HomeArticle, ButtonNextPage, SocialLink],
   template: `
     <app-home-article [title]="articleTitle" [presentation]="articleResume"></app-home-article>
     <app-button-next-page [text]="'Continuer avec mes expériences'" [path]="'/experiences'"></app-button-next-page>

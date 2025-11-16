@@ -4,7 +4,7 @@ import { NgClass, NgStyle } from '@angular/common';
 
 @Component({
   selector: 'app-social-link',
-  imports: [NgClass, NgStyle],
+  imports: [NgClass],
   templateUrl: './social-link.html',
   styleUrl: './social-link.scss',
 })
