@@ -1,0 +1,25 @@
+:host {
+  --p-megamenu-item-focus-background: transparent;
+}
+
+span {
+  color: var(--text);
+  background: none;
+}
+
+span::before {
+  margin-left: auto;
+}
+
+span::after, span::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: var(--text);
+  display: block;
+  transition: 0.5s;
+}
+
+span:hover::after, span:hover::before {
+  width: 100%;
+}

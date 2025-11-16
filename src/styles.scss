@@ -2,6 +2,7 @@
 @import "./tailwind.css";
 @import "primeicons/primeicons.css";
 
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #121f3b;
@@ -20,4 +21,30 @@
     --secondary: #384d71;
     --accent: #005cb3;
   }
+}
+
+$text-size: 16px;
+$title3-size: 24px;
+$title2-size: 32px;
+$title1-size: 40px;
+
+body {
+  color: var(--text);
+  padding: 0 172px;
+}
+
+p {
+  font-size: $text-size;
+}
+
+h3 {
+  font-size: $title3-size;
+}
+
+h2 {
+  font-size: $title2-size;
+}
+
+h1 {
+  font-size: $title1-size;
 }
