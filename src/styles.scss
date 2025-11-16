@@ -14,7 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #121f3b;
+    --background: #0a1427;
+    --backround2: #070e1b;
     --text: #eaf0f6;
     --primary: #2d51a4;
     --secondary: #8ea3c7;
@@ -24,7 +25,8 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --background: #c4d1ed;
+    --background: #d2dcf1;
+    --backround2: #d9e4fc;
     --text: #090f15;
     --primary: #5b7fd2;
     --secondary: #384d71;
@@ -32,23 +34,24 @@
   }
 }
 
-$text-size: 20px;
-$title3-size: 30px;
-$title2-size: 40px;
-$title1-size: 50px;
+$text-size: 16px;
+$title3-size: 24px;
+$title2-size: 32px;
+$title1-size: 40px;
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  color: var(--text);
-  padding: 0 172px;
-  font-family: 'sansation', 'arial', sans-serif;
-}
-
-main {
-  padding: 0 64px;
-}
-
-p {
-  font-size: $text-size;
+  background-image:
+    url('/assets/images/portfolio_home_background.png'),
+    radial-gradient(circle at center, var(--background), var(--backround2));
+  background-size: 100% 100%, cover;
+  background-repeat: no-repeat, no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {

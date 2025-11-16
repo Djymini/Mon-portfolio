@@ -18,11 +18,6 @@ export class HeaderMenu {
   ngOnInit() {
     this.items = [
       {
-        label: 'A propos',
-        routerLink: '/about',
-        root: true,
-      },
-      {
         label: 'Expériences',
         routerLink: '/experiences',
         root: true,

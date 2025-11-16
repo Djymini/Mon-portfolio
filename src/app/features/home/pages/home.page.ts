@@ -11,10 +11,7 @@ import { SocialItem } from '../../../shared/models/social-item.model';
   imports: [HomeArticle, ButtonNextPage, RouterLink, SocialLink],
   template: `
     <app-home-article [title]="articleTitle" [presentation]="articleResume"></app-home-article>
-    <app-button-next-page
-      [text]="'Continuer avec mes expériences'"
-      [path]="'/experiences'"
-    ></app-button-next-page>
+    <app-button-next-page [text]="'Continuer avec mes expériences'" [path]="'/experiences'"></app-button-next-page>
     <app-social-link [socialItems]="socialItems"></app-social-link>
   `,
   styles: ``,
