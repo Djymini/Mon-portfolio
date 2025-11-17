@@ -4,7 +4,7 @@
     "skillName": "Blender",
     "skillExpertise": "6 ans experiences",
     "skillknowledge": ["Modélisation 3D", "Sculpting", "Texturing"],
-    "skillIcon": "assets/images/logos/Blender_logo.png"
+    "skillIcon": "assets/images/logos/Blender_logo.svg"
   },
   {
     "color": "#FFECB8",

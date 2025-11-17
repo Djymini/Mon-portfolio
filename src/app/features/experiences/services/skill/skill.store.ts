@@ -5,10 +5,10 @@ import { SkillItem } from '../../models/skill-item.model';
   providedIn: 'root',
 })
 export class SkillStore {
-  private skillItemDevWebSignal = signal<SkillItem[] | undefined>(undefined);
-  private skillItemDevMobileSignal = signal<SkillItem[] | undefined>(undefined);
-  private skillItemDevGameSignal = signal<SkillItem[] | undefined>(undefined);
-  private skillItemOtherSignal = signal<SkillItem[] | undefined>(undefined);
+  private skillItemDevWebSignal = signal<SkillItem[]>([]);
+  private skillItemDevMobileSignal = signal<SkillItem[]>([]);
+  private skillItemDevGameSignal = signal<SkillItem[]>([]);
+  private skillItemOtherSignal = signal<SkillItem[]>([]);
 
   skillItemDevWeb = computed(() => this.skillItemDevWebSignal());
   skillItemDevMobile = computed(() => this.skillItemDevMobileSignal());
@@ -16,7 +16,7 @@ export class SkillStore {
   skillItemDevOther = computed(() => this.skillItemOtherSignal());
 
   loadSkillDevWeb(newSkillArray: SkillItem[]) {
-    this.skillItemDevGameSignal.set(newSkillArray);
+    this.skillItemDevWebSignal.set(newSkillArray);
   }
 
   loadSkillDevMobile(newSkillArray: SkillItem[]) {

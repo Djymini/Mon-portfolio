@@ -1,3 +1,23 @@
+:host {
+  --p-accordion-header-background: transparent;
+  --p-accordion-header-hover-background	: transparent;
+  --p-accordion-header-active-background: transparent;
+  --p-accordion-header-active-hover-background: transparent;
+  --p-accordion-content-background: transparent;
+}
+
 .card {
   margin-bottom: 64px;
+}
+
+.my-content {
+
+}
+
+
+:host ::ng-deep .p-accordioncontent-content {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 24px;
 }

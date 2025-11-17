@@ -7,7 +7,7 @@ import { firstValueFrom } from 'rxjs';
   providedIn: 'root',
 })
 export class SkillApi {
-  private http = inject(HttpClient);
+  private http = inject(HttpClient)
   private readonly BASE_PATH = 'data/';
 
   async getSkill(json: string): Promise<SkillItem[]> {
