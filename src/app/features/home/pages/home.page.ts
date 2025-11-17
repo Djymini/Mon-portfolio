@@ -1,6 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { HomeArticle } from "../components/home-article/home-article";
-import { PRES_MAIN, PRES_TITLE } from '../../../shared/constants/presentation-constant';
+import { PRES_MAIN, PRES_TITLE, SOCIAL_ITEMS} from '../../../shared/constants/presentation-constant';
 import { ButtonNextPage } from "../../../shared/components/button-next-page/button-next-page";
 import { SocialLink } from "../../../shared/components/social-link/social-link";
 import { SocialItem } from '../../../shared/models/social-item.model';
@@ -22,18 +22,9 @@ export default class HomePage implements OnInit{
   articleTitle: string = PRES_TITLE;
   articleResume: string = PRES_MAIN;
 
-  socialItems: SocialItem[] = [
-    {
-      icon: 'pi-github',
-      url: 'https://github.com/Djymini',
-    },
-    {
-      icon: 'pi-link',
-      url: 'https://loutrepixel.itch.io/',
-    },
-  ];
+  socialItems: SocialItem[] = SOCIAL_ITEMS;
 
   ngOnInit(): void {
-      this.backgroundService.changeBackground('/assets/images/portfolio_home_background.png');
+      this.backgroundService.changeBackground('assets/images/portfolio_home_background.png');
   }
 }

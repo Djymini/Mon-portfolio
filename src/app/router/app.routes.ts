@@ -14,7 +14,7 @@ export const routes: Routes = [
   {
     path: 'experiences',
     title: 'Expériences',
-    loadComponent: () => import('../features/experience/pages/experience.page'),
+    loadComponent: () => import('../features/experiences/pages/experience.page'),
   },
   {
     path: 'projects',

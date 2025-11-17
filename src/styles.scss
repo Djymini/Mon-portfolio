@@ -43,10 +43,13 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0 ;
+  padding-bottom: 32px;
+  overflow: hidden;
 }
 
 body {
+  overflow-y: auto;
   background-image:
     url('/assets/images/portfolio_home_background.png'),
     radial-gradient(circle at center, var(--background), var(--backround2));

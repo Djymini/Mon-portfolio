@@ -1,0 +1,20 @@
+<div class="skill-card">
+  <header class="skill-card__header" style="background-color: {{skillItem().color}}">
+    <img
+      src="{{skillItem().skillIcon}}"
+      alt="HTML5 Logo"
+      class="skill-card__icon"
+    >
+  </header>
+
+  <section class="skill-card__body">
+    <h2 class="skill-card__title">{{skillItem().skillName}}</h2>
+    <span class="skill-card__duration">{{skillItem().skillExpertise}}</span>
+
+    <ul class="skill-card__knowledge">
+      @for(knowledge of skillItem().skillknowledge; track $index){
+        <li>{{knowledge}}</li>
+      }
+    </ul>
+  </section>
+</div>

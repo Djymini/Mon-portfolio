@@ -1,0 +1,37 @@
+[
+  {
+    "color": "#B8FFC8",
+    "skillName": "Blender",
+    "skillExpertise": "6 ans experiences",
+    "skillknowledge": ["Modélisation 3D", "Sculpting", "Texturing"],
+    "skillIcon": "assets/images/logos/Blender_logo.png"
+  },
+  {
+    "color": "#FFECB8",
+    "skillName": "C#",
+    "skillExpertise": "2 ans experiences",
+    "skillknowledge": ["Orienté objet", "Design pattern"],
+    "skillIcon": "assets/images/logos/C_sharp_logo.png"
+  },
+  {
+    "color": "#B8D4FF",
+    "skillName": "Godot",
+    "skillExpertise": "3 ans experiences",
+    "skillknowledge": ["Moteur de jeu", "Physique", "Shaders"],
+    "skillIcon": "assets/images/logos/Godot_logo.png"
+  },
+  {
+    "color": "",
+    "skillName": "Cakewalk",
+    "skillExpertise": "3 ans experiences",
+    "skillknowledge": ["Composition musicale", "Mixage"],
+    "skillIcon": "assets/images/logos/Cakewalk_Bandlab_logo.png"
+  },
+  {
+    "color":"",
+    "skillName": "Illustrator",
+    "skillExpertise": "4 ans experiences",
+    "skillknowledge": ["Design vectoriel", "Création de logos"],
+    "skillIcon": "assets/images/logos/Illustrator_logo.png"
+  }
+]
