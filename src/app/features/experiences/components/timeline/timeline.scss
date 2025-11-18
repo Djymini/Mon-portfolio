@@ -1,0 +1,10 @@
+:host{
+  --p-card-background: var(--secondary);
+  --p-card-color: var(--background);
+  --p-card-subtitle-color: var(--primary);
+}
+
+.location {
+  margin-bottom: 24px;
+  color: var(--primary);
+}

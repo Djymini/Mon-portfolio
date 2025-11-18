@@ -1,0 +1,37 @@
+<h2>Technologies</h2>
+<div class="card flex justify-content-center">
+    <p-accordion [value]="['5']" [multiple]="true">
+        <p-accordion-panel value="0">
+            <p-accordion-header>Développement web</p-accordion-header>
+            <p-accordion-content class="my-content">
+              @for(skill of skillItemsDevWeb; track $index){
+                <app-skill-badge [skillItem]="skill"></app-skill-badge>
+              }
+            </p-accordion-content>
+        </p-accordion-panel>
+        <p-accordion-panel value="1">
+            <p-accordion-header>Jeux vidéo</p-accordion-header>
+            <p-accordion-content class="my-content">
+              @for(skill of skillItemsDevGame; track $index){
+                <app-skill-badge [skillItem]="skill"></app-skill-badge>
+              }
+            </p-accordion-content>
+        </p-accordion-panel>
+        <p-accordion-panel value="2">
+            <p-accordion-header>Développement mobile</p-accordion-header>
+            <p-accordion-content class="my-content">
+              @for(skill of skillItemsDevMobile; track $index){
+                <app-skill-badge [skillItem]="skill"></app-skill-badge>
+              }
+            </p-accordion-content>
+        </p-accordion-panel>
+        <p-accordion-panel value="3">
+            <p-accordion-header>Autre</p-accordion-header>
+            <p-accordion-content class="my-content">
+              @for(skill of skillItemsOther; track $index){
+                <app-skill-badge [skillItem]="skill"></app-skill-badge>
+              }
+            </p-accordion-content>
+        </p-accordion-panel>
+    </p-accordion>
+</div>

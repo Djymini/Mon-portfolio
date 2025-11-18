@@ -1,4 +1,6 @@
 import { Routes } from '@angular/router';
+import { skillResolver } from './resolver/skill-resolver';
+import { experienceResolver } from './resolver/experience-resolver';
 
 export const routes: Routes = [
   {
@@ -14,7 +16,8 @@ export const routes: Routes = [
   {
     path: 'experiences',
     title: 'Expériences',
-    loadComponent: () => import('../features/experience/pages/experience.page'),
+    loadComponent: () => import('../features/experiences/pages/experience.page'),
+    resolve: { skill: skillResolver, experience: experienceResolver}
   },
   {
     path: 'projects',
