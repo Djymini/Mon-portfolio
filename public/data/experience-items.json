@@ -1,0 +1,32 @@
+[
+  {
+    "date": "Juillet 2025",
+    "title": "Obtention du titre professionnel Développeur Web et Web Mobile",
+    "location": "Greta centre Val de Loire",
+    "description": "Dans le cadre de cette formation, j'ai acquis des compétences en développement front-end et back-end, ainsi qu'en gestion de bases de données et déploiement d'applications web. Technologies utilisées : HTML, CSS, JavaScript, React, Java, Spring boot, MySQL."
+  },
+  {
+    "date": "31 Mars 2025 - 6 Juin 2025",
+    "title": "Stage Développeur Web",
+    "location": "Bejof Sarl",
+    "description": "Développement d'un site vitrine sous wordpress permettant de s'incrire à des ateliers de cuisine, à destination des femmes. Technologies utilisées : HTML, CSS, PHP, JavaScript."
+  },
+  {
+    "date": "17 Février 2025 - 28 Mars 2025",
+    "title": "Projet de groupe - Formation développeur Web",
+    "location": "Greta centre Val de Loire",
+    "description": "Création d'un jeu de gestion d'entreprise en React. Mise en place d'une interface utilisateur interactive et responsive. Technologies utilisées : React, JavaScript, CSS."
+  },
+  {
+    "date": "Novembre 2023",
+    "title": "Formateur éducation aux médias et à l'information",
+    "location": "Ligue de l'enseignement",
+    "description": "Animation et formation autour des techniques d/’éducation aux médias. Accompagnement des participants pour comprendre les enjeux liés aux médias et découverte d/’outils permettant d/’aborder ces thématiques de manière claire et accessible."
+  },
+  {
+    "date": "Mai 2017 - Octobre 2023",
+    "title": "Médiateur numérique",
+    "location": "Ligue de l'enseignement",
+    "description": "Animation et accompagnement du dispositif Promeneurs du Net 37, porté par la CAF d/’Indre-et-Loire, pour développer une présence éducative sur Internet. Formation des acteurs de l/’éducation aux pratiques numériques, notamment autour des réseaux sociaux et des projets d/’animation en ligne. Accompagnement technique et conseils auprès des Promeneurs du Net. Conception et animation de modules dédiés aux outils du Fablab, à l/’éducation aux médias, aux réseaux sociaux et au jeu vidéo. Veille régulière sur les thématiques d/’animation et les tendances numériques afin d/’adapter les pratiques et les contenus."
+  }
+]

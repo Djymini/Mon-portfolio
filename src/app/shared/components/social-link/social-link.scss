@@ -1,0 +1,30 @@
+.element-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.social-container{
+  margin-right: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+.download-btn {
+  height: fit-content;
+  padding: 12px 24px;
+  display: inline-block;
+  background: var(--accent);
+  color:  var(--background);
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.download-btn:hover {
+  background: var(--primary);
+}
+
+.pi{
+  font-size: 36px;
+  color: var(--text);
+}

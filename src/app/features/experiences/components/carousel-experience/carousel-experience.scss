@@ -1,0 +1,17 @@
+:host {
+  --p-accordion-header-background: transparent;
+  --p-accordion-header-hover-background	: transparent;
+  --p-accordion-header-active-background: transparent;
+  --p-accordion-header-active-hover-background: transparent;
+  --p-accordion-content-background: transparent;
+}
+
+.card {
+  margin-bottom: 64px;
+}
+
+:host ::ng-deep .p-accordioncontent-content {
+  display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
