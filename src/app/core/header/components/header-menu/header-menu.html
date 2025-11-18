@@ -1,0 +1,13 @@
+<p-megamenu [model]="items" class="p-4 bg-surface-0 dark:bg-surface-900 flex justify-between items-center rounded-full" [style]="{ display: 'flex', border: 'none' }">
+    <ng-template #start>
+      <a routerLink="/">
+        <img [ngSrc]="'assets/images/Logo_LoutrePixel_normal.png'" alt="Loutrepixel logo" height="64" width="64" priority/>
+      </a>
+    </ng-template>
+
+    <ng-template #item let-item>
+        <a pRipple class="flex items-center cursor-pointer px-4 py-2 overflow-hidden relative uppercase ml-auto" style="border-radius: 2rem" [routerLink]="item.routerLink">
+            <span class="ml-2">{{ item.label }}</span>
+        </a>
+    </ng-template>
+</p-megamenu>

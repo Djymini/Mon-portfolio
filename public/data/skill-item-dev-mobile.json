@@ -1,0 +1,9 @@
+[
+  {
+    "color": "#B8FFC8",
+    "skillName": "Android studio",
+    "skillExpertise": "1 ans experiences",
+    "skillknowledge": ["Architecture MVVM", "Services", "Design mobile"],
+    "skillIcon": "assets/images/logos/Android_Studio_logo.png"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "color": "#FFB8E8",
+    "skillName": "Angular",
+    "skillExpertise": "1 ans experiences",
+    "skillknowledge": ["Développement par composant", "Services"],
+    "skillIcon": "assets/images/logos/Angular_gradient.png"
+  },
+  {
+    "color": "#B8E6FF",
+    "skillName": "CSS",
+    "skillExpertise": "3 ans experiences",
+    "skillknowledge": ["Responsive design", "RGAA accessibilité"],
+    "skillIcon": "assets/images/logos/CSS_logo.png"
+  },
+  {
+    "color": "#B8EDFF",
+    "skillName": "Docker",
+    "skillExpertise": "2 ans experiences",
+    "skillknowledge": ["Déploiement", "Conteneurisation", "CI/CD"],
+    "skillIcon": "assets/images/logos/Docker_logo.png"
+  },
+  {
+    "color": "#FFDBC8",
+    "skillName": "Figma",
+    "skillExpertise": "1 ans experiences",
+    "skillknowledge": ["Prototypage", "Design UI/UX"],
+    "skillIcon": "assets/images/logos/Figma_logo.png"
+  },
+  {
+    "color": "#FFE1B8",
+    "skillName": "Html",
+    "skillExpertise": "3 ans experiences",
+    "skillknowledge": ["Sémantique"],
+    "skillIcon": "assets/images/logos/HTML_logo.png"
+  },
+  {
+    "color": "#B8CBFF",
+    "skillName": "Java",
+    "skillExpertise": "2 ans experiences",
+    "skillknowledge": ["Orienté objet", "Design pattern"],
+    "skillIcon": "assets/images/logos/Java_logo.png"
+  },
+  {
+    "color": "#FFF9B8",
+    "skillName": "JavaScript",
+    "skillExpertise": "2 ans experiences",
+    "skillknowledge": ["Contenue dynamique"],
+    "skillIcon": "assets/images/logos/JavaScript_logo.png"
+  },
+  {
+    "color": "#B8ECFF",
+    "skillName": "MySQL",
+    "skillExpertise": "2 ans experiences",
+    "skillknowledge": ["Bases relationnelles", "Requêtes complexes"],
+    "skillIcon": "assets/images/logos/Mysql.png"
+  },
+  {
+    "color": "#B8F4FF",
+    "skillName": "React",
+    "skillExpertise": "2 ans experiences",
+    "skillknowledge": ["Développement par composant", "Hooks"],
+    "skillIcon": "assets/images/logos/React_logo.png"
+  },
+  {
+    "color": "#B8FFCD",
+    "skillName": "Spring Boot",
+    "skillExpertise": "2 ans experiences",
+    "skillknowledge": ["API REST", "Sécurité", "JPA/Hibernate"],
+    "skillIcon": "assets/images/logos/Spring_Boot_logo.png"
+  },
+  {
+    "color": "#D1B8FF",
+    "skillName": "TypeScript",
+    "skillExpertise": "2 ans experiences",
+    "skillknowledge": ["Typage statique", "POO"],
+    "skillIcon": "assets/images/logos/TypeScript_logo.png"
+  },
+  {
+    "color": "#DBDBDB",
+    "skillName": "Wordpress",
+    "skillExpertise": "1 ans experiences",
+    "skillknowledge": ["Website creation", "Plugins"],
+    "skillIcon": "assets/images/logos/WordPress_logo.png"
+  }
+]
