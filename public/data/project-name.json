@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Pokécarte",
+    "description": "Eshop de cartes Pokémon réalisé dans le cadre de la formation CDA.",
+    "image": "assets/images/projects/pokecarte.png",
+    "tags": ["En cours", "Angular", "Spring Boot", "Docker", "MySQL"],
+    "link": "https://pokecarte.loutredev.fr",
+    "linkRepo": "https://github.com/Djymini/pokecarte"
+  },
+  {
+    "name": "The Office the game",
+    "description": "Projet de jeu de gestion d'entreprise réalisé en groupe dans le cadre de la formation développeur web et web mobile.",
+    "image": "assets/images/projects/theoffice.png",
+    "tags": ["React", "Spring Boot", "MySQL"],
+    "link": "",
+    "linkRepo": "https://github.com/The-Office-GP/TheOffice_front"
+  },
+  {
+    "name": "Fall Block",
+    "description": "Jeu puzzle développé avec le moteur Godot, où le joueur doit empiler des blocs.",
+    "image": "assets/images/projects/fallblock.png",
+    "tags": ["Godot", "GDscript", "Illustrator", "Cakewalk"],
+    "link": "https://loutrepixel.itch.io/fall-block",
+    "linkRepo": ""
+  },
+  {
+    "name": "Echoostation",
+    "description": "Projet personnel de music player Android développé en Java avec Android Studio.",
+    "image": "assets/images/projects/echoostation.png",
+    "tags": ["En cours", "Android studio", "Java"],
+    "link": "",
+    "linkRepo": ""
+  }
+]

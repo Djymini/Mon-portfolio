@@ -1,0 +1,27 @@
+<div class="card">
+  <div
+    aria-label="Abstract gradient background"
+    role="img"
+    class="card-image"
+    [style.background-image]="'url(' + project().image + ')'"
+  ></div>
+  <div class="card-content">
+    <p class="card-title">{{project().name}}</p>
+    <p class="card-description">
+      {{project().description}}
+    </p>
+    <div class="card-tags">
+      @for (tag of project().tags; track $index) {
+        <span class="card-tag">{{tag}}</span>
+      }
+    </div>
+    <div class="card-footer">
+      </div>
+      @if (project().link) {
+        <a class="card-button" [href]="project().link" target="_blank">Explorer</a>
+      }
+      @if (project().linkRepo) {
+        <a class="card-button" [href]="project().linkRepo" target="_blank">Github</a>
+      }
+    </div>
+</div>
