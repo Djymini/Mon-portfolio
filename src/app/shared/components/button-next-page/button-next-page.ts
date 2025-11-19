@@ -20,6 +20,7 @@ export class ButtonNextPage implements OnInit {
   }
 
   goToPage() {
-    this.router.navigate([this.path]);
+    console.log('Navigating to:', this.path());
+    this.router.navigate([this.path()]);
   }
 }
