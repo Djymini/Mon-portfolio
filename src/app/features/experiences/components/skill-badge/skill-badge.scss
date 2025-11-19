@@ -103,3 +103,41 @@
 .skill-card:hover .skill-card__knowledge li:nth-child(6) {
   transition-delay: calc(6 * .25s);
 }
+
+@media (max-width: 730px) {
+  .skill-card {
+    padding: 8px;
+    width: 7em;
+  }
+
+  .skill-card__header {
+    height: 85px;
+    margin: -10px -10px 10px -10px;
+  }
+
+  .skill-card:hover .skill-card__header {
+    height: 20px;
+  }
+
+  .skill-card:hover .skill-card__body {
+    height: 85px;
+  }
+
+  .skill-card__title {
+    font-size: 0.7em;
+  }
+
+  .skill-card__knowledge {
+    margin-top: 5px;
+  }
+
+  .skill-card__knowledge li {
+    margin-top: 2px;
+  }
+
+  .skill-card__icon {
+    height: 64px;
+    width: auto;
+  }
+
+}
