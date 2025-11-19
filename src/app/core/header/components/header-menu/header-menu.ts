@@ -27,11 +27,6 @@ export class HeaderMenu {
         routerLink: '/projects',
         root: true,
       },
-      {
-        label: 'Contact',
-        routerLink: '/contact',
-        root: true,
-      },
     ];
   }
 }

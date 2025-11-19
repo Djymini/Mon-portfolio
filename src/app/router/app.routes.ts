@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { skillResolver } from './resolver/skill-resolver';
 import { experienceResolver } from './resolver/experience-resolver';
+import { projectResolver } from './resolver/project-resolver';
 
 export const routes: Routes = [
   {
@@ -22,12 +23,8 @@ export const routes: Routes = [
   {
     path: 'projects',
     title: 'Projets',
-    loadComponent: () => import('../features/project/pages/project.page'),
-  },
-  {
-    path: 'contact',
-    title: 'Contact',
-    loadComponent: () => import('../features/contact/pages/contact.page'),
+    loadComponent: () => import('../features/projects/pages/project.page'),
+    resolve: { project: projectResolver }
   },
   {
     path: 'error',

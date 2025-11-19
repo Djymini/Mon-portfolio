@@ -1,7 +1,7 @@
 <div class="element-container">
   <div class="social-container">
     @for (item of socialItems(); track $index) {
-      <a [href]="item.url" >
+      <a [href]="item.url" target=”_blank”>
         <i class="pi" [ngClass]="item.icon"></i>
       </a>
     }

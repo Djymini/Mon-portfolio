@@ -1,13 +1,13 @@
 [
   {
-    "color": "#FCBBDF",
+    "color": "#FFD4D4",
     "skillName": "Git",
     "skillExpertise": "2 ans experiences",
     "skillknowledge": ["Gestion de versions", "Collaboration"],
     "skillIcon": "assets/images/logos/Git_logo.png"
   },
   {
-    "color": "",
+    "color": "#DBDBDB",
     "skillName": "Github",
     "skillExpertise": "2 ans experiences",
     "skillknowledge": ["Dépôts distants", "Pull requests", "CI/CD"],
