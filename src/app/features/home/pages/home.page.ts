@@ -11,12 +11,15 @@ import { BackgroundServices } from '../../../shared/services/home/background.ser
   imports: [HomeArticle, ButtonNextPage, SocialLink],
   template: `
     <app-home-article [title]="articleTitle" [presentation]="articleResume"></app-home-article>
-    <app-button-next-page [text]="'Continuer avec mes expériences'" [path]="'/experiences'"></app-button-next-page>
+    <app-button-next-page
+      [text]="'Continuer avec mes expériences'"
+      [path]="'/experiences'"
+    ></app-button-next-page>
     <app-social-link [socialItems]="socialItems"></app-social-link>
   `,
   styles: ``,
 })
-export default class HomePage implements OnInit{
+export default class HomePage implements OnInit {
   backgroundService = inject(BackgroundServices);
 
   articleTitle: string = PRES_TITLE;
@@ -25,6 +28,6 @@ export default class HomePage implements OnInit{
   socialItems: SocialItem[] = SOCIAL_ITEMS;
 
   ngOnInit(): void {
-      this.backgroundService.changeBackground('assets/images/portfolio_home_background.png');
+    this.backgroundService.changeBackground('assets/images/portfolio_home_background.png');
   }
 }

@@ -5,9 +5,16 @@ article {
 
 h1 {
   margin: 24px 0;
+  text-align: left;
 }
 
 a {
   font-weight: bolder;
   font-size: 17px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 26px;
+  }
 }

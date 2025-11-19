@@ -4,7 +4,7 @@
     "skillName": "Angular",
     "skillExpertise": "1 ans experiences",
     "skillknowledge": ["Développement par composant", "Services"],
-    "skillIcon": "assets/images/logos/Angular_gradient.png"
+    "skillIcon": "assets/images/logos/Angular_logo.png"
   },
   {
     "color": "#B8E6FF",
@@ -25,7 +25,7 @@
     "skillName": "Figma",
     "skillExpertise": "1 ans experiences",
     "skillknowledge": ["Prototypage", "Design UI/UX"],
-    "skillIcon": "assets/images/logos/Figma_logo.png"
+    "skillIcon": "assets/images/logos/Figma_logo.svg"
   },
   {
     "color": "#FFE1B8",
@@ -53,10 +53,10 @@
     "skillName": "MySQL",
     "skillExpertise": "2 ans experiences",
     "skillknowledge": ["Bases relationnelles", "Requêtes complexes"],
-    "skillIcon": "assets/images/logos/Mysql.png"
+    "skillIcon": "assets/images/logos/Mysql_logo.png"
   },
   {
-    "color": "#B8F4FF",
+    "color": "#D4F7FF",
     "skillName": "React",
     "skillExpertise": "2 ans experiences",
     "skillknowledge": ["Développement par composant", "Hooks"],
@@ -70,11 +70,11 @@
     "skillIcon": "assets/images/logos/Spring_Boot_logo.png"
   },
   {
-    "color": "#D1B8FF",
+    "color": "#D4DCFF",
     "skillName": "TypeScript",
     "skillExpertise": "2 ans experiences",
     "skillknowledge": ["Typage statique", "POO"],
-    "skillIcon": "assets/images/logos/TypeScript_logo.png"
+    "skillIcon": "assets/images/logos/Typescript_logo.png"
   },
   {
     "color": "#DBDBDB",
